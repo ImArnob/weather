@@ -57,6 +57,8 @@ Wind speed
 Humidity
 Rain/precipitation
 Current date
+
+
 🕒 Hourly Forecast
 
 Users can view today’s hourly forecast in a horizontal scrollable list.
@@ -66,6 +68,8 @@ Each hourly card shows:
 Temperature
 Weather icon
 Time
+
+
 📅 7-Day Forecast
 
 The app includes a 7-day forecast section.
@@ -80,6 +84,7 @@ Minimum temperature
 
 Users can tap any day from the 7-day forecast list to preview that day’s temperature and weather condition in the main weather card.
 
+
 🎨 Modern UI Design
 
 The app uses a dark weather-themed interface with:
@@ -91,6 +96,8 @@ Soft shadows
 Smooth animations
 Clean spacing
 Mobile-friendly layout
+
+
 🛠️ Built With
 Flutter
 Dart
@@ -98,6 +105,7 @@ Open-Meteo Weather API
 Open-Meteo Geocoding API
 HTTP package
 Intl package
+
 📦 Packages Used
 
 Add these dependencies inside your pubspec.yaml file:
@@ -112,9 +120,11 @@ dependencies:
 Then run:
 
 flutter pub get
+
 📁 Project Structure
 
 A simple structure for this project:
+
 
 lib/
 │
@@ -145,6 +155,7 @@ lib/
 
 For beginners, you can keep everything inside main.dart first. Later, you can separate the code into folders like the structure above.
 
+
 🚀 Getting Started
 1. Clone the repository
 git clone https://github.com/your-username/weather-app.git
@@ -154,6 +165,8 @@ cd weather-app
 flutter pub get
 4. Run the app
 flutter run
+
+
 🌐 API Information
 
 This project uses Open-Meteo APIs.
@@ -175,6 +188,8 @@ Used for converting city names into latitude and longitude.
 Example:
 
 Dhaka -> latitude and longitude -> weather data
+
+
 🔎 How Location Search Works
 
 When the user types a city name:
@@ -199,6 +214,8 @@ DailyForecastTile	Shows one day forecast item
 GlassCard	Reusable glass-style container
 WeatherInfoItem	Shows wind, humidity, and rain info
 CircleGlassButton	Reusable circular icon button
+
+
 🎯 Main Functionalities
 Search Location
 searchLocations(query);
@@ -215,6 +232,7 @@ selectedDailyIndex = index;
 
 This updates the main weather card when a user taps a day from the 7-day forecast list.
 
+
 📌 Future Improvements
 
 Possible improvements for this app:
@@ -229,6 +247,8 @@ Add detailed hourly forecast page
 Add sunrise and sunset time
 Add air quality index
 Add unit switch between Celsius and Fahrenheit
+
+
 🧑‍💻 Author
 
 Developed by Arnob
