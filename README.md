@@ -8,10 +8,7 @@ This project is a real-time weather app built with Flutter. Users can search for
 
 The app initially loads weather data for **Chattogram, Bangladesh** and allows the user to refresh or search for a new location.
 
-<img width="400" height="800" alt="Screenshot_20260602-003829_weather~2" src="https://github.com/user-attachments/assets/5f814df3-fd83-4c7e-9331-2a4cf1149484" />
 
-
-<img width="400" height="800" alt="Screenshot_20260602-003855_weather~2" src="https://github.com/user-attachments/assets/566b078b-d8b8-487c-9d5d-12d3f16f068e" />
 
 ## ✨ Features
 
@@ -265,13 +262,10 @@ By building this project, you will learn:
 
 ## 📸 Screenshots
 
-Add your app screenshots here:
+<img width="400" height="800" alt="Screenshot_20260602-003829_weather~2" src="https://github.com/user-attachments/assets/5f814df3-fd83-4c7e-9331-2a4cf1149484" />
 
-```markdown
-![Home Screen](screenshots/home.png)
-![Search Location](screenshots/search.png)
-![7 Days Forecast](screenshots/forecast.png)
-```
+
+<img width="400" height="800" alt="Screenshot_20260602-003855_weather~2" src="https://github.com/user-attachments/assets/566b078b-d8b8-487c-9d5d-12d3f16f068e" />
 
 ## 👨‍💻 Author
 
@@ -279,4 +273,4 @@ Developed by **Arnob**
 
 ## 📄 License
 
-This project is open-source and available under the MIT License.
+This project is open-source.
